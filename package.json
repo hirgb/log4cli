@@ -15,6 +15,5 @@
         "ts-jest": "^24.1.0",
         "ts-loader": "^6.2.1",
         "typescript": "^3.6.4"
-    },
-    "name": "ts-demo"
+    }
 }

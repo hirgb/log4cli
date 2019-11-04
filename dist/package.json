@@ -1,0 +1,24 @@
+{
+  "name": "loger4node",
+  "version": "1.0.0",
+  "description": "console log nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangkefei/loger4node.git"
+  },
+  "keywords": [
+    "log",
+    "console",
+    "nodejs"
+  ],
+  "author": "zhangkefei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangkefei/loger4node/issues"
+  },
+  "homepage": "https://github.com/zhangkefei/loger4node#readme"
+}
