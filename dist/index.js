@@ -1,11 +1,25 @@
-(function (factory) {
-    typeof define === 'function' && define.amd ? define(factory) :
-    factory();
-}(function () { 'use strict';
+'use strict';
 
-    function hello(p) {
-        console.log(p.name);
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var chalk = _interopDefault(require('chalk'));
+
+var Log = /** @class */ (function () {
+    function Log() {
     }
-    hello({ name: 'zhangkefei' });
+    Log.error = function (str) {
+        console.log(chalk.red.bold('[Error]: ') + str);
+    };
+    Log.info = function (str) {
+        console.log(chalk.gray.bold('[Info]: ') + str);
+    };
+    Log.success = function (str) {
+        console.log(chalk.green.bold('[Success]: ') + str);
+    };
+    Log.warn = function (str) {
+        console.log(chalk.yellow.bold('[Warn]: ') + str);
+    };
+    return Log;
+}());
 
-}));
+module.exports = Log;

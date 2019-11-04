@@ -1,9 +1,15 @@
-# TS-DEMO
+# log4nodejs
 
-This is a typescript package demo and template.
+This is a console log tools for nodejs.
 
 ## Usage
 
-- git clone
-- npm i
-- rollup -c
+- `import Log from 'log4nodejs'` or `const Log = require('log4nodejs')`
+- Log.error('hello, world')
+
+## Api
+
+- Log.info(str)
+- Log.success(str)
+- Log.warn(str)
+- Log.error(str)
