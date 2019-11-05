@@ -1,6 +1,6 @@
 {
-    "name": "loger4node",
-    "version": "1.0.2",
+    "name": "log4cli",
+    "version": "1.0.0",
     "description": "A console log tools for nodejs.",
     "main": "index.js",
     "scripts": {
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zhangkefei/loger4node.git"
+        "url": "git+https://github.com/zhangkefei/log4cli.git"
     },
     "keywords": [
         "log",
@@ -18,9 +18,9 @@
     "author": "zhangkefei",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/zhangkefei/loger4node/issues"
+        "url": "https://github.com/zhangkefei/log4cli/issues"
     },
-    "homepage": "https://github.com/zhangkefei/loger4node#readme",
+    "homepage": "https://github.com/zhangkefei/log4cli#readme",
     "dependencies": {
         "chalk": "^2.4.2"
     }

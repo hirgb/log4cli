@@ -1,10 +1,10 @@
-# loger4node
+# log4cli
 
 This is a console log tools for nodejs.
 
 ## Usage
 
-- `import Log from 'loger4node'`
+- `import Log from 'log4cli'` or `const Log = require('log4cli').default`
 - Log.error('hello, world')
 
 ## Api
