@@ -1,4 +1,4 @@
-import Log from '../src/index'
+import Log from '../dist/index'
 
 Log.info('This is a info message')
 Log.error('This is an error message')
